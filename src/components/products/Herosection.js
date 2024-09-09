@@ -8,4 +8,4 @@ function Herosection() {
   );
 }
 
-export default Herosection;
+export default Herosection

@@ -1,13 +1,18 @@
 import React from 'react';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
+import { Box } from '@mui/material';
+import Aboutus from './pages/Aboutus';
+import Services from './pages/Services';
+import Products from './pages/Products';
+import Cursor from './commoncomponent/cursor/Cursor';
 
 function App() {
   return (
-    <div>
-      {/* <Home /> */}
-      <Contact />
-    </div>
+    <Box>
+      {/* <Cursor /> */}
+      <Aboutus />
+      <Services />
+      <Products />
+    </Box>
   );
 }
 
